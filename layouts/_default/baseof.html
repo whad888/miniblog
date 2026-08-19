@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if .Title }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
+</head>
+<body>
+  <header><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></header>
+  <main>
+  {{ block "main" . }}{{ end }}
+  </main>
+  <footer><small>Powered by Hugo · published by CONTENT_STUDIO</small></footer>
+</body>
+</html>
