@@ -4,10 +4,17 @@
 #   baseURL = "https://my-blog.pages.dev/"
 # (CONTENT_STUDIO fills in post URLs from this when it publishes, so they show
 #  up correctly in the heartbeat report.)
-baseURL = "https://my-blog.pages.dev/"
-languageCode = "en-us"
+# Deployed to CloudStudio (served at root) -> baseURL "/" works for root serving.
+# When you later connect Cloudflare Pages, set this to your *.pages.dev URL.
+baseURL = "/"
+languageCode = "en-us"  # (locale = "en-US" also accepted in newer Hugo)
 title = "My CONTENT_STUDIO Blog"
 
 # Posts are dropped into content/posts by the heartbeat (tools/distribute.py
 # StaticPublisher). No theme is required — minimal layouts ship in layouts/.
 enableGitInfo = false
+
+# Posts publish at clean root URLs (/<slug>/) to match CONTENT_STUDIO's
+# StaticPublisher reported URL (base_url/<slug>/), and so links are short.
+[permalinks]
+posts = "/:slug/"
