@@ -1,6 +1,7 @@
 ---
 title: "Avengers: Age of Ultron - A Critical Review of Marvel's Ambitious Sequel"
 date: 2026-08-21T17:30:00
+slug: "avengers-age-of-ultron-review"
 draft: false
 tags: ["movie-review", "marvel", "avengers", "superhero"]
 ---
