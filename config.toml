@@ -6,7 +6,7 @@
 #  up correctly in the heartbeat report.)
 # Deployed to CloudStudio (served at root) -> baseURL "/" works for root serving.
 # When you later connect Cloudflare Pages, set this to your *.pages.dev URL.
-baseURL = "/"
+baseURL = "https://whad888.github.io/miniblog/"
 languageCode = "en-us"  # (locale = "en-US" also accepted in newer Hugo)
 title = "My CONTENT_STUDIO Blog"
 
