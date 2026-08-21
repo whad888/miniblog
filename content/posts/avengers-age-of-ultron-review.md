@@ -1,9 +1,9 @@
 ---
-title: "Avengers: Age of Ultron - A Critical Review of Marvel's Ambitious Sequel"
-date: 2026-08-21T17:30:00
-slug: "avengers-age-of-ultron-review"
+title: "Avengers: Age of Ultron - A Critical Review"
+date: 2026-08-20T16:00:00
+slug: avengers-age-of-ultron-review
+tags: ["movie-review", "marvel", "mcu", "superhero"]
 draft: false
-tags: ["movie-review", "marvel", "avengers", "superhero"]
 ---
 
 ## Introduction: The Weight of Expectations
